@@ -1,0 +1,20 @@
+.navLinksContainer {
+    justify-content: space-around !important;
+}
+
+.navLinkText {
+    font-size: 20px !important; 
+    color: white !important;
+    font-weight: 500 !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.navLinkText:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white !important;
+    border-radius: 5px;
+}
+
+.navIcon {
+    margin-right: 7px; 
+}
