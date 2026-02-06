@@ -28,7 +28,7 @@ export default function Aside() {
                             getOptionLabel={(option) => option.superhero}
                             renderInput={(params) => (
                                 <TextField 
-                                    {...params} 
+                                    {...params} // Herencia de los parametros de Autocomplete a TextField
                                     label="Selecciona un Superhéroe" 
                                 />
                             )}
